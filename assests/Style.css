@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Nanum+Brush+Script&family=Roboto+Condensed:wght@300;400&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   
+
+}
+h2,h3{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 3px; 
+  
+}
+table, th, td {
+    border: 1px solid #3A3744;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+
+  }
+.full-container {
+    min-height: 100vh;
+    background-color: #F2F5F8;
+
+
+}
+.ticket-container{
+    width: 80%;
+    margin: 0px auto;
+
+}
+.collumn-1{
+    width: 28%;
+ background-image: url('../assests/img/paradise.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.collumn-2{
+    background-color: #3A3744;
+  
+}
+.collumn-3{
+    background-color: #F6F6F6;
+    width: 29%;
+
+}
+.img-style{
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    
+}
+.img-style-2{
+    /* height: 20px; */
+    width: auto;
+  
+}
+.img-logo{
+    text-align: center;
+    margin:20px 0 20px 0;
+}
+.img-logo-2{
+    text-align: center;
+    /* margin-top: -10%; */
+    /* background-color: red; */
+
+ 
+    
+}
+.img-logo-3{
+    text-align: center;
+}
+.collum-2-content{
+    background-color: #2B2934;
+  
+}
+.column-2-sub-content{
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+.collum-2-content-2 h1{
+color: #ffaa00;
+}
+.collum-2-content-2 p{
+    color: white;
+}
+.content-3{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-top: 40px;
+}
+.content-3-last{
+    height: 20px;
+    background-color: #2F2F2F;
+    width: 60%;
+    margin:0 auto;
+}
+.ticket-number {
+	color: gray;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+@media print {
+    body {-webkit-print-color-adjust: exact;}
+    }
